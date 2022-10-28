@@ -41,8 +41,8 @@ Sub CreateCP()
     lastrow = Cells(Rows.Count, 1).End(xlUp).Row
     lastrow = lastrow + 1
     
-    Cells(lastrow, 1) = Now
-    Cells(lastrow, 2) = seme
+    Cells(lastrow, 1).Value = Now
+    Cells(lastrow, 2).Value = seme
     Cells(lastrow, 3).Value = "×"
     Cells(lastrow, 4).Value = uke
     
